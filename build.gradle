@@ -1,0 +1,21 @@
+subprojects {
+    group = 'br.com.mks.mqsamples'
+    version = '0.0.1-SNAPSHOT'
+
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        // https://mvnrepository.com/artifact/com.rabbitmq/amqp-client
+        compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.9.0'
+    }
+
+    compileJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
