@@ -1,3 +1,4 @@
 rootProject.name = 'rabbitmq-samples'
 
 include 'hello-world'
+include 'notification-sample'
