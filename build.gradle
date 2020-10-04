@@ -1,5 +1,5 @@
 subprojects {
-    group = 'br.com.mks.mqsamples'
+    group = 'br.com.mks.rabbitmq'
     version = '0.0.1-SNAPSHOT'
 
     apply plugin: 'java'
